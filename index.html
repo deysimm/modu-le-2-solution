@@ -79,15 +79,16 @@
    
    @media screen (min-width:992px) and (max-width: 1199px){
    #menu_items #menu_item{
-   width:25%;
-   height: 250px;
-   flex-wrap:wrap;
+      flex: 1 1 30%;
+      max-width:30%;
       }
    }
    
    @media screen and (min-width:600px){
      #menu_items #menu_item{
-      width:300%;
+      flex: 1 1 100%;
+      width:100%;
+      min-width:100%;
       }
    }
    
