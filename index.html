@@ -53,7 +53,7 @@
    
    #menu_items{
    display:flex;
-   flex-wrap: wrap;
+   flex-wrap: no-wrap;
    float:left;
    justify-content:center;
    margin:0 auto !important;
@@ -87,6 +87,7 @@
    @media screen and (min-width:600px){
      #menu_items #menu_item{
       width:50%;
+      flex-wrap: wrap !important;
       }
    }
    
