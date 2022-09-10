@@ -78,9 +78,14 @@
    
    }
    
-   @media and (max-width: 992px) {
+   @media and (min-width: 992px) {
       #menu_items{
-      width:50%;
+      flex-direction:column;
+      flex-wrap:wrap;
+      }
+      
+      #menu_item{
+      width:80%;
       }
    }
    
