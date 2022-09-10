@@ -1,0 +1,92 @@
+  h1{
+   text-align:center;
+   font-family: Montserrat, sans-serif;
+   }
+   
+   p{
+   font-family: Montserrat, sans-serif;
+   font-size:15px;
+   }
+   
+  .chicken_title{
+   max-width:200px;
+   border:3px solid #000;
+   border-radius:30px;
+   padding:10px;
+   margin:auto;
+   text-align:center !important;
+   color: #ffff;
+   background-color:#E08955;
+   font-family: Montserrat, sans-serif;
+   }
+   
+   .beef_title{
+   max-width:200px;
+   border:3px solid #000;
+   border-radius:30px;
+   padding:10px;
+   margin:auto;
+   text-align:center !important;
+   color: #ffff;
+   background-color:#914955;
+   font-family: Montserrat, sans-serif;
+   }
+   
+   .sushi_title{
+   max-width:200px;
+   border:3px solid #000;
+   border-radius:30px;
+   padding:10px;
+   margin:auto;
+   text-align:center !important;
+   color: #ffff;
+   background-color:#0D877A;
+   font-family: Montserrat, sans-serif;
+   }
+   
+   #menu_items{
+   width:100%;
+   display:flex;
+   flex-wrap: no-wrap;
+   float:left;
+   justify-content:center;
+   margin:0 auto !important;
+   }
+   
+   #menu_item{
+   max-width:35%;
+   height:150px;
+   margin:10px;
+   padding:25px;
+   float:left;
+   border: 3px solid #000;
+   border-radius:30px;
+   background-color:#E4E5E8;
+   align-content:center;
+  }
+  
+   
+   @media screen and (max-width:1199px) {
+      #menu_items{
+      width:100%;
+      flex-direction:column;
+      flex-wrap:wrap;
+      }
+      
+      #menu_item{
+      width:100%;
+      margin:1rem auto;
+      }
+   }
+   
+   @media screen and (max-width: 768px){
+      #menu_items{
+      width:100%;
+      flex-direction:column;
+      flex-wrap:wrap;
+      }
+      
+      #menu_item{
+      width:100%;
+      }
+   }
